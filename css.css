@@ -50,6 +50,7 @@ header {
 .container {
 	margin: 0 auto;
 	width: 1000px;
+	position: static;
 }
 
 .name {
@@ -172,4 +173,29 @@ text {
 
 .take {
 	margin: -10px 0 16px 126px;
+}
+
+.card{
+	position: relative;
+	z-index: 2;
+}
+
+.img{
+	position: absolute;
+	z-index: 1;
+}
+
+.fimg{
+	top: 1125px;
+	left: 151px;
+}
+
+.simg{
+	top: 1560px;
+	left: 90px;
+}
+
+.timg{
+	top: 2220px;
+	left: 190px;
 }
