@@ -185,17 +185,39 @@ text {
 	z-index: 1;
 }
 
+@keyframes fani {
+    0 {
+    	top: 1560px;
+		left: 90px;
+    }
+    100% {
+        top: 1590px;
+		left: 120px;
+    }
+}
+
 .fimg{
 	top: 1125px;
 	left: 151px;
+	width: 84%;
 }
 
 .simg{
 	top: 1560px;
 	left: 90px;
+	width: 34%;
 }
+
 
 .timg{
 	top: 2220px;
 	left: 190px;
+	width: 80.5%;
+}
+
+.gimg{
+	position: absolute;
+	top:1960px;
+	left: 850px;
+	z-index: 3;
 }
