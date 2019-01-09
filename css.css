@@ -8,7 +8,7 @@ body {
 h1 {
 	color: #6E894A;
 	padding: 0;
-	margin: 180px 0 0 10px;
+	margin: 180px 0 0 0;
 	font-size: 72px;
 	font-weight: 300;
 	font-style: normal;
@@ -23,7 +23,6 @@ h1 {
 	width: 257px;
 	height: 11px;
 	background: #EDF1E3;
-	margin-left: 10px;
 }
 
 .subh1 {
@@ -43,9 +42,6 @@ h2 {
 	background: rgba(255, 255, 255, 0.7);
 }
 
-header h2 {
-	margin-left: 10px;
-}
 
 header {
 	background: url(img/banner.jpg) no-repeat center top / cover;
@@ -56,6 +52,10 @@ header {
 	margin: 0 auto;
 	max-width: 1000px;
 	position: static;
+}
+
+header, section {
+	padding: 0 10px;
 }
 
 .name {
@@ -110,7 +110,6 @@ header {
 	width: 257px;
 	height: 88px;
 	padding: 20px 0 0 40px;
-	margin-left: 10px;
 }
 
 .fbox {
@@ -127,7 +126,7 @@ text {
 	color: #6E894A;
 	border: 1px solid #6E894A;
 	background: rgba(0, 0, 0, 0);
-	text-shadow: -2px -2px 0 rgb(255, 255, 255);
+	text-shadow: -1px 0 0 rgb(255, 255, 255);
 }
 
 .caption {
@@ -139,7 +138,6 @@ text {
 	font-size: 24px;
 	box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
 	max-width: 612px;
-	margin-right: 10px;
 	min-width: 220px;
 }
 
@@ -179,7 +177,7 @@ text {
 }
 
 .second {
-	margin: 0 10px 0 210px;
+	margin: 0 0 0 210px;
 }
 
 .take {
