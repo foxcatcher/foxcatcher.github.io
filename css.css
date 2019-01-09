@@ -130,19 +130,22 @@ text {
 	font-weight: 500;
 	font-size: 24px;
 	box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
-	width: 612px;
+	max-width: 612px;
+	margin-right: 10px;
 }
 
 .cardline {
 	height: 30px;
 	background: #EDF1E3;
 	margin: 0 0 0 210px;
-	width: 692px;
+	max-width: 692px;
+	margin-right: 10px;
 }
 
 .gallery {
-	width: 612px;
+	max-width: 612px;
 	height: 600px;
+	position: relative;
 }
 
 .green {
@@ -167,7 +170,7 @@ text {
 }
 
 .second {
-	margin: 0 0 0 210px;
+	margin: 0 10px 0 210px;
 }
 
 .take {
@@ -181,8 +184,8 @@ text {
 
 .gimg {
 	position: absolute;
-	top: 1960px;
-	left: 850px;
+	bottom: 20px;
+	right: 10px;
 	z-index: 3;
 	width: 300px;
 }
