@@ -8,7 +8,7 @@ body {
 h1 {
 	color: #6E894A;
 	padding: 0;
-	margin: 180px 0 0 0;
+	margin: 180px 0 0 10px;
 	font-size: 72px;
 	font-weight: 300;
 	font-style: normal;
@@ -23,6 +23,7 @@ h1 {
 	width: 257px;
 	height: 11px;
 	background: #EDF1E3;
+	margin-left: 10px;
 }
 
 .subh1 {
@@ -40,6 +41,10 @@ h2 {
 	font-weight: 500;
 	font-style: normal;
 	background: rgba(255, 255, 255, 0.7);
+}
+
+header h2 {
+	margin-left: 10px;
 }
 
 header {
@@ -60,7 +65,7 @@ header {
 	font-size: 48px;
 	color: #000000;
 	box-sizing: border-box;
-	background: rgba(255, 255, 255, 0.3);
+	text-shadow: 0 0 10px rgb(255, 255, 255);
 	display: inline-block;
 }
 
@@ -71,6 +76,7 @@ header {
 	font-weight: normal;
 	font-size: 24px;
 	color: #000000;
+	text-shadow: 0 0 7px rgb(255, 255, 255);
 }
 
 .inf {
@@ -104,6 +110,7 @@ header {
 	width: 257px;
 	height: 88px;
 	padding: 20px 0 0 40px;
+	margin-left: 10px;
 }
 
 .fbox {
@@ -120,6 +127,7 @@ text {
 	color: #6E894A;
 	border: 1px solid #6E894A;
 	background: rgba(0, 0, 0, 0);
+	text-shadow: -2px -2px 0 rgb(255, 255, 255);
 }
 
 .caption {
@@ -132,6 +140,7 @@ text {
 	box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
 	max-width: 612px;
 	margin-right: 10px;
+	min-width: 220px;
 }
 
 .cardline {
@@ -200,10 +209,10 @@ text {
 	padding-top: 100px;
 }
 
-.info-block section:last-child{
+.info-block section:last-child {
 	padding-bottom: 100px;
 }
 
-.info-block section:first-child{
+.info-block section:first-child {
 	padding-top: 20px;
 }
